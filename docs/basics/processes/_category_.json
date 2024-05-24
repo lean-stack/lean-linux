@@ -1,0 +1,8 @@
+{
+  "label": "Prozesse",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "Informationen über und Steuerung von Prozessen"
+  }
+}
