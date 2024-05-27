@@ -31,10 +31,11 @@ In Konfigurations-Dateien wird dieses Kommando konfiguriert, um festzulegen
 
 - Wer darf `sudo` benutzen?
 - Was darf er damit machen?
+- Welches Passwort muss er kennen? Seins oder das des `root`-Users?
 
 Konfiguriert wird dieses Tool (wie fast alles in Linux) über eine einfache Textdatei,
 die in diesem Fall aber mit Hilfe des Kommandos `visudo` editiert wird. Das Kommando
-speichert die Änderungen zunächst in einer Kopie der Origila-Datei und führt vor dem
+speichert die Änderungen zunächst in einer Kopie der Original-Datei und führt vor dem
 Überschreiben der eigentlichen Datei eine Syntax-Kontrolle durch. Da kann ansonsten sehr
 schnell etwas schief gehen.
 

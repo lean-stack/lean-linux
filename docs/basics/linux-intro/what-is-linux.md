@@ -67,7 +67,7 @@ Regel nicht), erwartet der User natürlich gewisse Standard-Programme.
 
 Für alle in einem üblichen Windows-System benutzen Programme gibt es entweder die gleiche
 Software auch für GNU/Linux-Systeme oder mindestens adäquate oder bessere freie Software,
-die jeder User-Erwartung erfüllen kann.
+die jeder User-Erwartung standhalten können.
 
 Gewisse Software (zum Beispiel einige Programme des Platzhirschs Microsoft) allerdings
 laufen unter Linux entweder gar nicht (MS Office) oder nur in abgeschwächter Form (MS Teams).

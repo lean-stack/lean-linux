@@ -48,8 +48,8 @@ In der Regel können nur normale Benutzer sich grafisch anmelden. Insbesonder wi
 
 :::tip
 
-Falls installiert kann der grafische Desktop auch nach einer lokalen Anmeldung auf einem
-Konsole-Terminal gestartet werden. Die Befehle dazu werden im Thema 
-[System-Start und Dienste](#) behandelt.
+In Systemen die nicht grafisch starten kann - falls installiert - der grafische Desktop auch
+nach einer lokalen Anmeldung auf einem Konsole-Terminal gestartet werden. Die Befehle dazu
+werden im Thema [System-Start und Dienste](#) behandelt.
 
 :::
