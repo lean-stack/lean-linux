@@ -73,8 +73,8 @@ const config = {
             label: 'Grundlagen',
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'administrationSidebar',
+            type: 'doc',
+            docId: 'administration/intro',
             position: 'left',
             label: 'Administration',
           },
@@ -97,7 +97,7 @@ const config = {
               },
               {
                 label: 'Administration',
-                to: '/docs/administration/intro/',
+                to: '/docs/administration',
               },
             ],
           },
