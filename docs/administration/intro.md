@@ -25,7 +25,7 @@ Oftmals reicht zu den rudimentären Grundlagen-Werkzeugen auch einfach ein Edito
 
 ## Distributionen
 
-Manche Aspekte der Administration divergieren sehr stark zwischen den Demonstrationen
+Manche Aspekte der Administration divergieren sehr stark zwischen den Distributionen
 (insbesondere die Software-Verwaltung). Andere unterscheiden sich fast gar nicht - zum
 Beispiel die Benutzerverwaltung.
 

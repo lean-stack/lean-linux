@@ -11,10 +11,11 @@ Lokale Linux-User werden über einfache Dateien und Kommandos verwaltet.
 
 - `/etc/passwd`: Liste der lokalen Benutzer im System
 - `/etc/shadow`: Passwörter der lokalen Benutzer
-- `/etc/groups`: Liste der lokalen Gruppen
+- `/etc/group`: Liste der lokalen Gruppen
 - `/etc/gshadow`: Gruppenpasswörter (heutzutage ungenutzt)
 - `/etc/default/useradd`: Default-Einstellungen für neue Nutzer
 - `/etc/skel`: Verzeichnis mit Default-Dateien für neue Benutzer
+- `/etc/login.defs`: Zusätzliche Einstellungen für `useradd`
 
 Daten eines lokalen Benutzers:
 - Account-Name (Login-Name)
@@ -86,6 +87,20 @@ Das initiale Passwort wird anschließend über `passwd` gesetzt.
 
 Von den Optionen könnte die `-s`-Option und (eventuell auch `-g`) weggelassen werden,
 wenn entsprechende Defaults definiert sind.
+
+### Sudo-User
+
+Oft ist in der `sudo`-Konfiguration (Hinweis: `visudo`) schon eine bestimmte Gruppe
+als Sudoer-Gruppe freigeschaltet. Bei Debian-Systemen ist das in der Regel die Gruppe
+`sudo`, in anderen Distributrionen oft `wheel`.
+
+Um einem Benutzer eine zusätzliche Gruppe zu geben, genügt folgendes Kommando:
+
+```sh
+# -a: add - ohne das -a ist die folgende Gruppenliste die effektive Liste aller Gruppen
+# -G: komma-getrennte Liste der zusätzlichen Gruppen
+usermod -aG sudo micha
+```
 
 ## Defaults
 

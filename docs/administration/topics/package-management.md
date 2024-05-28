@@ -98,7 +98,11 @@ Relevante Datein und Ordner: `/etc/apt/sources.list` bzw. `/etc/apt/sources.list
 
 ### Rest der Welt
 
-Zum Beispiel `pacman` aus der ArchLinux-Welt
+Neben den drei oberen *Standard*-Distributionszweigen gibt es in weitere
+Paketmanager: zum Beispiel `pacman` aus der ArchLinux-Welt. Oder in der Slackware
+Distribution die `pkgtools`-Suite oder das *etwas* modernere `slackpgk`. Beide Toolsets
+aus der Slackware-Welt bieten aber zum Beispiel keine automatische Auflösung von
+Abhängigkeiten.
 
 ## Standard-Arbeitsschritte
 
@@ -111,7 +115,7 @@ In den Repositories liegen Listen mit allen installierbaren Packages. Die Listen
 werden online nach jedem Update eines Paketes erneuert und müssen deshalb mit den
 lokal gespeicherten Listen abgeglichen werden.
 
-`apt update` bzw. `dnf update` bzw. `zypper update`
+`apt update` bzw. `dnf makecache` bzw. `zypper refresh`
 
 Dies bedeutet **nicht** das die eigentliche Software schon aktualisiert ist, sondern
 nur aktuellste Informationen über die verfügbare Software ist jetzt auf dem lokalen
@@ -123,7 +127,7 @@ Die eigentlichen Software-Updates werden explizit eingespielt. Entweder Paket f�
 Paket - oder in einem Rutsch. Abhängigkeiten werden natürlich in beiden Fällen auch
 mit aktualisiert.
 
-`apt upgrade` bzw. `dnf upgrade` bzw. `zypper upgrade`
+`apt upgrade` bzw. `dnf update` bzw. `zypper update`
 
 ### Suche nach einem Paket
 
