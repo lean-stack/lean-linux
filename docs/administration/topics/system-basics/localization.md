@@ -42,6 +42,16 @@ Damit werden die Lokalisierungen erzeugt.
 
 Mit dem Kommando `locale -a` kann dieses überprüft werden.
 
+:::warning
+
+Unter RHEL müssen die Sprachpakete extra installiert werden:
+
+```sh
+dnf install glibc-all-langpacks
+```
+
+:::
+
 ## Die Variablen
 
 Allen Linux-Systemen gemein ist, dass es eine Reihe von Umgebungsvariablen gibt zur
@@ -105,6 +115,12 @@ LC_ALL=en_US.UTF-8 locale -k LC_TIME
 ```sh
 /etc/locale.conf
 ```
+
+:::warning
+
+Unter Debian heißt die Datei immer noch `/etc/default/locale`.
+
+:::
 
 In dieser Datei werden die systemweiten Defaults festgelegt. Im Zusammenhang mit
 dem SSH-Zugang könnte es übrigens Sinn machen, die LANG-Variable dort leer zu setzen.
