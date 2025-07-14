@@ -1,13 +1,10 @@
 - Logging (Journalctl, Facilities)
-- Zeitgestuerte: at, cron, systemd
+- Zeitgesteuerte: at, cron, systemd
 - SystemD Units
-- Netzwerkkonfig
+- Netzwerkkonfig (iproute2)
 - lspci
-- FHS
-- Benutzerverwaltung
 - Software-Verwaltung
 - Partitionierung
 - Dateisysteme
 - Mount
 - Lokalisierung, Zeit, Keyboard
-- iproute2
